@@ -34,4 +34,6 @@ After following the [instructions](https://github.com/saycel/towers-of-power/tre
       # Add this to end of file
       @reboot sudo openvpn /etc/openvpn/client.conf
 
-The pi is accessible from IP address 10.8.0.5. Of course, I also changed the password and added a firewall.
+The pi is accessible from IP address 10.8.0.5. Of course, I also changed the password and added a firewall. I used my favorite UFW firewall, more or less the same way I [always do](https://github.com/tinkrmind/connectedDevices/blob/master/secureYourPi.md) but this time I added exception for port 1194, because openvpn uses it.
+
+      sudo ufw allow 1194
