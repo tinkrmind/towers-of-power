@@ -37,3 +37,17 @@ After following the [instructions](https://github.com/saycel/towers-of-power/tre
 The pi is accessible from IP address 10.8.0.5. Of course, I also changed the password and added a firewall. I used my favorite UFW firewall, more or less the same way I [always do](https://github.com/tinkrmind/connectedDevices/blob/master/secureYourPi.md) but this time I added exception for port 1194, because openvpn uses it.
 
       sudo ufw allow 1194
+
+## Week 2
+
+### Possible homework:
+
+Make a procedurally generated antenna to pick up weather satellite data and render satellite imagery.
+
+*References:*
+
+* RTL SDR NOAA data download [tutorial](https://www.rtl-sdr.com/rtl-sdr-tutorial-receiving-noaa-weather-satellite-images/)
+* [Weather satellite data to image converter](http://www.wxtoimg.com/)
+* And of course Dhruv Mehrotra's [Satellite Sounds](http://satellite-sounds.dhruvmehrotra.info/) project
+* [Instructable](https://www.instructables.com/id/Downloading-NOAA-satellite-images-cheaply-and-easi/) on downloading NOAA data with RTL SDR
+* [Quadrifilar helicoidal antenna design guide](https://www.jcoppens.com/ant/qfh/calc.en.php)
